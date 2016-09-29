@@ -2,10 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ea0079-d75e-4362-bec5-2a3707b4fa8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/backend/controllers/SiteController.php" afterPath="$PROJECT_DIR$/demo/backend/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/common/config/bootstrap.php" afterPath="$PROJECT_DIR$/demo/common/config/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/common/config/main.php" afterPath="$PROJECT_DIR$/demo/common/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/common/config/params.php" afterPath="$PROJECT_DIR$/demo/common/config/params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/api/controllers/DogController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/api/controllers/EmpController.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/cache/96/963454f612a8b5fb4a63ba1e97f028a1.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8a9de11b7.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8acfb340a.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8b772b96d.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8c02713fc.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8c082513b.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8d16d31fe.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8d1dd16b8.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8d3796541.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8dac72c14.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8e868d876.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8e87c2bc2.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8e8899155.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8fba859dc.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec8fed67f38.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec90b1d7788.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec90ed4ac6b.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec911ac10a5.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec911b1ddfa.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec91522ea68.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec9162b71b9.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec917c3db13.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec918b24437.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec931390c85.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec933b40297.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec937d2b3f5.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec93d09ffcd.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec93d990773.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec93f5d4000.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec941eaec2f.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec9456f03c2.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec9464b0573.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec9466eaaa9.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec950b04b33.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec950d28294.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec95274cd8e.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec956289766.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec95a891ee5.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec96d6b1fb7.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57ec96f240d53.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca1fdd34b1.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca38ab798c.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca415ed574.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca4224e385.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca672b1bf3.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca6870a93c.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca692d2169.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca6986315d.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca72011d1b.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca9c78309a.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/57eca9cfdf20d.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/debug/index.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/gii-2.0.9/yii-gii-generators-controller-Generator.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/gii-2.0.9/yii-gii-generators-model-Generator.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/gii-2.0.9/yii-gii-generators-module-Generator.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/runtime/logs/app.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/546836/gii.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/546836/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/546836/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/68ee382d/bloodhound.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/68ee382d/bloodhound.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/68ee382d/typeahead.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/68ee382d/typeahead.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/68ee382d/typeahead.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/68ee382d/typeahead.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/6a8c762b/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/6a8c762b/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/6a8c762b/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/87076264/FrontAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/ca7f6d5a/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/f2faeeea/yii.activeForm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/f2faeeea/yii.captcha.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/f2faeeea/yii.gridView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/f2faeeea/yii.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/api/web/assets/f2faeeea/yii.validation.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/api/config/main.php" afterPath="$PROJECT_DIR$/demo/api/config/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/api/controllers/CarController.php" afterPath="$PROJECT_DIR$/demo/api/controllers/CarController.php" />
     </list>
     <ignored path="yii_learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +118,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/common/config/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="di.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/common/config/di.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/common/config/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -57,20 +139,82 @@
         </entry>
       </file>
       <file leaf-file-name="main-local.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/common/config/main-local.php">
+        <entry file="file://$PROJECT_DIR$/demo/api/config/main-local.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="18">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/common/config/params.php">
+      <file leaf-file-name="params-local.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/api/config/params-local.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmpController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/api/controllers/EmpController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/api/controllers/CarController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DogController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/api/controllers/DogController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActiveController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/vendor/yiisoft/yii2/rest/ActiveController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dog.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/api/models/Dog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+              <folding>
+                <element signature="e#30#54#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/api/config/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -90,6 +234,11 @@
         <option value="$PROJECT_DIR$/demo/common/config/params.php" />
         <option value="$PROJECT_DIR$/demo/common/config/main.php" />
         <option value="$PROJECT_DIR$/demo/common/config/di.php" />
+        <option value="$PROJECT_DIR$/demo/api/controllers/EmpController.php" />
+        <option value="$PROJECT_DIR$/demo/api/controllers/CarController.php" />
+        <option value="$PROJECT_DIR$/demo/api/controllers/DogController.php" />
+        <option value="$PROJECT_DIR$/demo/api/config/main.php" />
+        <option value="$PROJECT_DIR$/demo/api/models/Dog.php" />
       </list>
     </option>
   </component>
@@ -287,6 +436,112 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii_learn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii_learn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii_learn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii_learn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii_learn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -350,18 +605,18 @@
       <option name="presentableId" value="Default" />
       <updated>1475028792603</updated>
       <workItem from="1475028793824" duration="1787000" />
-      <workItem from="1475127432375" duration="441000" />
+      <workItem from="1475127432375" duration="5364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2228000" />
+    <option name="totallyTimeSpent" value="7151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="24" width="1317" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -569,6 +824,72 @@
         <state relative-caret-position="108">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/api/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/api/config/params-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/api/controllers/EmpController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/api/controllers/CarController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/vendor/yiisoft/yii2/rest/ActiveController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/api/controllers/DogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/api/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/api/models/Dog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+          <folding>
+            <element signature="e#30#54#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

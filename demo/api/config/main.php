@@ -22,7 +22,18 @@ return [
             'showScriptName' => false,
             'enableStrictParsing' => true,
             'rules' => [
-                ['class' => 'yii\rest\UrlRule', 'controller' => 'car'],
+                [
+                    'class' => 'yii\rest\UrlRule',
+                    'controller' => 'car',
+                    'except' => ['delete', 'create', 'update']
+                ],
+                [
+                    'class' => 'yii\rest\UrlRule',
+                    'controller' => ['d' => 'dog'],//别名格式
+//                    'controller' => 'dog',
+//                    'except' => ['delete', 'create', 'update']
+                    'only' => ['view','index'],
+                ],
             ],
         ],
         'request' => [
