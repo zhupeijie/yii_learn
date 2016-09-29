@@ -7,6 +7,7 @@ use yii\db\ActiveRecord;
 use yii\db\Expression;
 use yii\web\IdentityInterface;
 use yii\base\NotSupportedException;
+use yii\filters\RateLimitInterface;
 
 /**
  * This is the model class for table "sys_employee".
@@ -31,7 +32,7 @@ use yii\base\NotSupportedException;
  * @property string $updateAt
  * @property integer $Org_id_sp
  */
-class SysEmployee extends ActiveRecord implements IdentityInterface
+class SysEmployee extends ActiveRecord implements IdentityInterface,RateLimitInterface
 {
     const STATUS_DELETED = 0;
     const STATUS_ACTIVE = 1;
@@ -58,6 +59,8 @@ class SysEmployee extends ActiveRecord implements IdentityInterface
             [['job', 'email'], 'string', 'max' => 50],
             [['password'], 'string', 'max' => 128, 'min' => 6],
             [['remark'], 'string', 'max' => 100],
+            [['allowance','allowance_updated_at'],'number'],
+            [['access_token'],'string']
         ];
     }
 
@@ -119,7 +122,11 @@ class SysEmployee extends ActiveRecord implements IdentityInterface
      */
     public static function findIdentityByAccessToken($token, $type = null)
     {
-        throw new NotSupportedException('"findIdentityByAccessToken" is not implemented.');
+        if($token){
+            return static::findOne(['access_token' => $token, 'isValid' => self::STATUS_ACTIVE]);
+        }else{
+            throw new NotSupportedException('"findIdentityByAccessToken" is not implemented.');
+        }
     }
 
     public static function findByUsername($username)
@@ -193,4 +200,26 @@ class SysEmployee extends ActiveRecord implements IdentityInterface
         return Yii::$app->getSecurity()->validatePassword($password, $this->password);
     }
 
+
+    public function getRateLimit($request, $action)
+    {
+        return [3, 10]; // $rateLimit requests per second
+    }
+
+    public function loadAllowance($request, $action)
+    {
+        return [$this->allowance-1, $this->allowance_updated_at];
+//        $cache = Yii::$app->cache;
+//        return [$cache->get('api_allowance')-1, $cache->get('api_allowance_time')];
+    }
+
+    public function saveAllowance($request, $action, $allowance, $timestamp)
+    {
+//        $cache = Yii::$app->cache;
+//        $cache->add('api_allowance', $allowance);
+        $this->allowance = $allowance;
+        $this->allowance_updated_at = $timestamp;
+//        $cache->add('api_allowance_time',$timestamp);
+        $this->save();
+    }
 }

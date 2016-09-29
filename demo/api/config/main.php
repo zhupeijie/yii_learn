@@ -29,10 +29,10 @@ return [
                 ],
                 [
                     'class' => 'yii\rest\UrlRule',
-                    'controller' => ['d' => 'dog'],//别名格式
-//                    'controller' => 'dog',
+//                    'controller' => ['d' => 'dog'],//别名格式
+                    'controller' => 'dog',
 //                    'except' => ['delete', 'create', 'update']
-                    'only' => ['view','index'],
+//                    'only' => ['view','index'],
                 ],
             ],
         ],

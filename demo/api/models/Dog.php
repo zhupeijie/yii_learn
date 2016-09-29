@@ -84,4 +84,5 @@ class Dog extends ActiveRecord implements Linkable
             Link::REL_SELF => Url::to(['user/view', 'id' => $this->id], true),
         ];
     }
+
 }
